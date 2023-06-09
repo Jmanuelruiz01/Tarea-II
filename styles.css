@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #input-container {
+    margin-bottom: 10px;
+  }
+  
+  #students-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li span {
+    font-weight: bold;
+  }
+  
+  li .student-info {
+    margin-left: 10px;
+    font-style: italic;
+  }

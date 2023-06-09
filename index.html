@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estadísticas de pesos de alumnos</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Estadísticas de pesos de alumnos</h1>
+
+  <div id="input-container">
+    <label for="name-input">Nombre:</label>
+    <input type="text" id="name-input">
+
+    <label for="id-input">Cédula:</label>
+    <input type="text" id="id-input">
+
+    <label for="age-input">Edad:</label>
+    <input type="number" id="age-input">
+
+    <label for="weight-input">Peso (en kg):</label>
+    <input type="number" id="weight-input">
+
+    <button id="add-button">Agregar</button>
+  </div>
+
+  <h2>Alumnos ingresados:</h2>
+  <ul id="students-list"></ul>
+
+  <h2>Estadísticas de pesos:</h2>
+  <ul id="statistics-list">
+    <li id="less-than-40">Alumnos de menos de 40kg: <span>0</span></li>
+    <li id="between-40-and-50">Alumnos entre 40kg y 50kg: <span>0</span></li>
+    <li id="between-50-and-60">Alumnos de más de 50kg y menos de 60kg: <span>0</span></li>
+    <li id="greater-than-60">Alumnos de más o igual a 60kg: <span>0</span></li>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
